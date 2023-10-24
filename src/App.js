@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const redirect = () => {
     window.location.href =
-      "https://sso.epics.weii.io?RelayState=https://epics-sso-client-1.vercel.app";
+      "https://sso.epics.weii.io/login?redirect_url=https://epics-sso-client-1.vercel.app";
   };
 
   return (
